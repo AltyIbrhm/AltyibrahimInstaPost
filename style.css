@@ -1,0 +1,59 @@
+.post-header{
+    display: flex; /* Enables Flexbox layout */
+     /* Distributes items with space between them */
+     /* Centers items vertically */
+    width: 100%; /* Makes the container take the full width of the screen */
+    /* padding: 10px; */ /* Optional: add padding around the icons */
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.post-header .headertext{
+    /* margin-right: 600px; */ /* Adds some space between icons on the left */
+}
+.bar {
+    margin-left: auto; /* Pushes the last icon to the far right */
+}
+/* .bar{
+    padding: 30px 5px 1px 200px;
+} */
+.html5{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    min-height: fit-content;
+    font-size: xx-large;
+    
+} 
+
+.headertext{
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.post-icons {
+    display: flex; /* Enables Flexbox layout */
+    justify-content: space-between; /* Distributes items with space between them */
+    align-items: center; /* Centers items vertically */
+    width: 100%; /* Makes the container take the full width of the screen */
+    padding: 10px; /* Optional: add padding around the icons */
+}
+
+.post-icons i {
+    margin-right: 10px; /* Adds some space between icons on the left */
+}
+
+/* Move the last icon to the right */
+.post-icons i:last-child {
+    margin-left: auto; /* Pushes the last icon to the far right */
+}
+
+.post {
+    max-width: 35rem;
+    margin: 1rem auto;
+}
